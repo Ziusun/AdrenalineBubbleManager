@@ -1,0 +1,161 @@
+--Texts (only text in " ")
+
+--script.lua
+UNSAFE_MODE =					"UNSICHERER MODUS wird für diese Homebrew vorausgesetzt !!!"
+ADRBBOTER_INSTALLED = 			"AdrBubbleBooter Plugin wurde installiert... \nDie PS Vita  wird neu gestartet... :)"
+ADRENALINE_LAUNCH_FIRST =		"Nach dem Neustart musst Adrenaline erneut geöffnet werden\n\num eine korrekte Funktionsweise sicherzustellen oder\n\nmit ABM erstellte Verknüpfungen könnten unter Umständen nicht funktionieren"
+ADRENALINE_NOT_INSTALLED =		"Adrenaline v6 wurde noch nicht installiert..."
+MESSAGE_WAIT =					"Bitte warten..."
+UPDATE_BUBBLES =				"Verknüpfung wird aktualisiert: "
+
+STRINGS_OS_DIALOG =				"System-Benachrichtigung"
+
+--callbacks.lua
+UPDATING_BUBBLES =				"Vorschaubilder werden aktualisiert: "
+INSTALLING_BUBBLE =				"Verknüpfung wird erstellt:"
+STRING_FILE =					"Datei:"
+
+--bubbles.lua
+BUBBLES_TITLE =					"Einstellungen"
+BUBBLES_COUNT =					"Anzahl:"
+BUBBLES_SELSMARKS =				"Verknüpfung entfernen"
+BUBBLES_EMPTY =					"Ungenutzte Verknüpfung(en) entfernen"
+BUBBLES_STARTMARKS =			"START: (ALLE/KEINE)"
+BUBBLES_UNINSTALL =				"Löschen"
+BUBBLES_EDITBOOT_BIN =			"boot.bin bearbeiten"
+BUBBLES_TOGGLE =				"Optionen auswählen"
+BUBBLES_DONE_EDIT =				"Speichern"
+BUBBLES_NOT_BUBBLES =			"Es wurden keine Verknüpfungen gefunden :("
+BUBBLES_CREAT_BB =				"Erstelle ein paar und probiere es dann nochmal"
+BUBBLES_GOTOBACK =				"Zurück"
+BUBBLES_UNINSTALL_QUESTION =	"Diese Verknüpfung(en) werden gelöscht: "
+BUBBLES_UNINSTALL_EMPTYS =		"Lösche alle ungenutzten Verknüpfungen"
+BUBBLES_INJECT =				"Aussehen ändern"
+BUBBLES_PATH2GAME =				"Vollständiger Dateipfad"
+BUBBLES_EDITPATH = 				"Dateipfad bearbeiten"
+
+--bubles.redit
+BUBBLES_RE_EDIT =				"Ressourcen-Downloader"
+BUBBLES_REINSTALL =				"Drücke START um alle neuen Bilddateien für die Verknüpfung zu speichern"
+BUBBLES_NOTRESOURCES =			"Keine Einträge"
+BUBBLES_EDIT_BB =				"Verknüpfung in Bearbeitung"
+
+--osk
+STRINGS_TITLE_OSK =				"Titel der Verknüpfung"
+STRINGS_NAME_OSK =				"Eingabe des Titels"
+
+--Process
+STRINGS_CONVERTING =			"Ressourcen umwandeln..."
+STRINGS_INSTALL_MANUAL =		"Spielanleitung wird installiert..."
+STRINGS_ERROR_INST =			"Entschuldigung, bei der Installation ist ein Fehler aufgetreten"
+STRINGS_UNK =					"UNK"
+
+--debug
+DEBUG_LOAD_CISO =				"Lädt C/ISO"
+DEBUG_LOAD_PBP =				"Lädt PBP"
+
+--custom message
+STRINGS_CUSTOM_TITLE_MSG =		"Systembenachrichtigung"
+STRINGS_OPTION_MSG_OK =			"Ok"
+STRINGS_OPTION_MSG_YES =		"Ja"
+STRINGS_OPTION_MSG_NO =			"Nein"
+
+--scan.lua
+SCAN_TITLE =					"Verfügbaren Spiele [ISO/CSO/PBP]"
+SCAN_FULLBUBBLE =				"Gestreckt"
+SCAN_BB_NOTSTRETCHED =			"Original"
+SCAN_DEFAULT_COLOR =			"Standart"
+SCAN_BUBBLE_COLOR =				"Farbe"
+SCAN_TOGGLE_PICS =				"Drücke Dreieck für Bilder: an/aus"
+SCAN_MARK_GAME =				"Auswahl markieren"
+SCAN_BUBBLES_SETTINGS =			"Einstellungen für Verknüpfungen"
+SCAN_INSTALL_ALL =				"    Verknüpfungen für alle ungenutzten Spiele erstellen"
+SCAN_NOTFIND_PSPGAMES =			"Es wurden keine PSP-Titel gefunden..."
+SCAN_INSTALL_CISO_GAMES =		"ISO/CSO-Dateien bitte in pspemu/ISO ablegen"
+SCAN_INSTALL_PBP_GAMES =		"Und EBOOT.PBP in pspemu/PSP/GAME/(MEINSPIEL)"
+SCAN_PRESS_LR =					"Drücke L um die Vorschauanzeige zwischen Gestreckt und Original zu wechseln"
+SCAN_PRESS_SELECT =				"Drücke SELECT um nach by\nInstallationszeitpunkt/Name/Letzte Bearbeitung zu sortieren."
+SCAN_PRESS_LEFT_RIGHT =			"Drücke Links/Rechts um die Grundfarbe einer Verknüpfung zu ändern."
+SCAN_PRESS_CROSS =				"Drücke X um eine Verknüpfung zu erstellen."
+SCAN_PRESS_CIRCLE =				"Drücke O um eine Verknüpfung zu erstellen."
+SCAN_DOUBLE_TAP =				"Doppelt tippen"
+SCAN_PRESS_START =				"Hilfe anzeigen"
+SCAN_SORT_BY =					"Sortieren nach"
+SCAN_SORT_TITLE =				"Name"
+SCAN_SORT_MTIME =				"Letzte Bearbeitung"
+SCAN_SORT_INSTALLED =			"Installationszeitpunkt"
+SCAN_SORT_CATEGORY =			"Kategorie"
+SCAN_SORT_GAMEID =				"GameID"
+SCAN_SORT_DEVICE =				"Partition"
+SCAN_SETPACK =					"Set"
+SCAN_SHOW_PIC =					"PIC"
+
+--dont remove %s
+SCAN_PRESS_CONFIRM =			"Drücke %s"
+
+--submenu
+STRINGS_WARNING =				"Veränderungen werden nach dem Drücken von START gespeichert"
+STRINGS_SETIMGS =				"Vorschau-Set"
+STRINGS_CONVERT_8BITS =			"8bits umwandeln"
+STRINGS_DEFAULT_SORT =			"Sortierung"
+STRINGS_DEFAULT_COLOR =			"Farbe"
+STRINGS_CUSTOMIZED =			"Individuell"
+STRINGS_PSBUTTON =				"PS-Taste"
+STRINGS_PSP_PSX_BUBBLES =		"PSP/PSX"
+STRINGS_EXTRA_SETTINGS =		"Weitere Einstellungen"
+STRINGS_ABM_UPDATE =			"ABM-Update"
+STRINGS_CHECK_ADRENALINE =		"Adrenaline prüfen"
+STRINGS_DEFAULT_TITLE =			"Originaltitel"
+STRINGS_PSBUTTON_MENU =			"Menü"
+STRINGS_PSBUTTON_LIVEAREA =		"LiveArea"
+STRINGS_LANG_CUSTOM =			"Benutzerdefinierte Sprache"
+STRINGS_LANG_DEFAULT =			"Englisch"
+STRINGS_LANG_OPTION =			"Sprache wählen"
+STRINGS_AUTOFIX_BOOTBIN =		"boot.bin automatisch reparieren"
+STRINGS_AUTOFIX_BUBBLES =		"Verknüpfungen reparieren"
+STRINGS_BB_FIX_COUNT =			"Anzahl der reparierten Verknüpfungen:"
+
+--submenu descrptions
+STRINGS_DESC_CONVERT8BITS =		"8bit-Konvertierung der Vorschaubilder. Wenn Bilder schon 8bit-konform sind dann hier bitte NEIN auswählen."
+STRINGS_DESC_SETIMGS =			"Wähle ein eigenes Set (mit deinen Bildern) für Verknüpfungen oder wähle PSP/PSX für eine originalgetreue Optik."
+STRINGS_DESC_DEFAULT_SORT =		"Standartsortierung beim Start von ABM"
+STRINGS_DESC_DEFAULT_COLOR =	"Standartfarbe für neue Verknüpfungen"
+
+STRINGS_DESC_EDITPATH = 		"Hier kann der Speicherort des Spiels angepasst werden. Nur für als fehlend gekennzeichnete Titel."
+STRINGS_DESC_DRIVER =			"Treiber wechseln: INFERNO, MARCH33, NP9660"
+STRINGS_DESC_EXECUTE =			"Wechselt das Startmodul: EBOOT.BIN, BOOT.BIN, EBOOT.OLD"
+STRINGS_DESC_CUSTOMIZED =		"Für individuelle Verknüpfungseinstellungen bitte auf JA stellen"
+STRINGS_DESC_PSBUTTON =			"Funktion der PS-Taste: Zwischen Adrenaline-Menü und LiveArea wählen"
+STRINGS_DESC_THREADS =			"Bei Anzeige des Adrenalins-Menüs Spiel pausieren"
+STRINGS_DESC_PLUGINS =			"Plugins (de-)aktivieren"
+STRINGS_DESC_NONPDRM =			"NonpDRM Engine"
+STRINGS_DESC_HMEMORY =			"Erhöhter RAM-Speicher"
+STRINGS_DESC_SPEED =			"CPU-Geschwindigkeit im Spiel anpassen"
+STRINGS_DESC_ABM_UPDATE =		"Prüft ABM beim Start auf Aktualisierungen, Standart ist JA"
+STRINGS_DESC_CHECK_ADRENALINE =		"Sucht nach Adrenaline-Updates, auf NEIN stellen wenn die aktuelle Adrenaline-Installation beibehalten werden soll."
+STRINGS_DESC_TITLES =			"Auswählen um beim Erstellen einer neuen Verknüpfung den Standarttitel des Spiels zu verwenden"
+STRINGS_DESC_AUTOFIX =			"Korrigiert fehlerhafte Verknüpfungen die mit Version 5.20 erstellt wurden"
+STRINGS_DESC_LANG_OPTION =		"Startet ABM in der ausgewählten Sprache: Englisch oder Benutzerdefinert"
+
+--bar progress
+STRINGS_BUBBLES_BAR =			"Verknüpfungen"
+
+--online
+STRINGS_RESOURCES_AUTHOR =			"Ersteller"
+STRINGS_RESOURCES_ID =				"ID"
+STRINGS_RESOURCES_MANUAL =			"Anleitung"
+STRINGS_RESOURCES_SEARCH =			"Online suchen"
+STRINGS_RESOURCES_ONLINE =			"Online-Ressourcen"
+STRINGS_RESOURCES_ERROR_DECODE =	"Fehler beim Dekodieren der Ressourcen-Datenbank!"
+STRINGS_RESOURCES_ERROR_BASE =		"Fehler beim Anfordern der Ressourcen-Datenbank!"
+STRINGS_RESOURCES_INSTALLED =		"Ressourcen installiert!"
+STRINGS_RESOURCES_ERROR_UNPACK =	"Fehler beim Entpacken der Ressourcen!"
+STRINGS_RESOURCES_ERROR_DOWNLOAD =	"Fehler beim Herunterladen der Ressourcen!"
+
+------------	Updater	-------------------------------------------------------------------------
+STRINGS_UPDATER_QUESTION = 		"ist jetzt verfügbar.\n\nWillst du die Anwendung aktualisieren?"
+STRINGS_UPDATER = 				"Update wird heruntergeladen..."
+STRINGS_UPDATER_SIZE = 			"Größe: "
+STRINGS_UPDATER_WRITTEN = 		"Bereits geladen: "
+STRINGS_UPDATER_SPEED = 		"Geschwindigkeit: "
+STRINGS_UPDATER_PERCENT = 		"Prozent: "
